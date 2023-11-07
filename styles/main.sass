@@ -1,0 +1,128 @@
+body
+  font-family: Arial, sans-serif
+  margin: 0
+  padding: 0
+
+.container
+  display: flex
+  flex-direction: column
+  align-items: center
+  height: 100vh
+  background-color: #FFF0F5
+  max-width: 600px
+  margin: 0 auto
+  padding: 20px
+
+.h1
+  text-align: center
+  color: aqua
+  font-size: 24px
+  margin-bottom: 20px
+
+#form-todo
+  display: flex
+
+#todo-input
+  flex-grow: 1
+  padding: 10px
+  border: 1px solid #ccc
+  border-radius: 5px
+  outline: none
+
+#form-todo button
+  border-radius: 8px
+  background-color: #E4717A
+  border: none
+  color: white
+  padding: 8px 16px
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  font-size: 14px
+  cursor: pointer
+
+#form-todo button:hover
+  background-color: #D71868
+
+
+
+todo-list
+  max-width: 400px
+  margin: 20px auto
+
+todo-list ul
+  list-style-type: none
+  padding: 0
+
+todo-list li
+  margin-bottom: 10px
+  display: flex
+  align-items: center
+
+todo-list li input[type="checkbox"]
+  margin-right: 10px
+
+todo-list button
+  background-color: #4CAF50
+  border: none
+  color: white
+  padding: 7px 14px
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  font-size: 14px
+  cursor: pointer
+
+
+#todo-items
+  list-style-type: none
+  padding: 0
+
+
+#todo-items li
+  display: flex
+  align-items: center
+  margin-bottom: 10px
+  padding: 10px
+  border: 1px solid #ccc
+  border-radius: 5px
+
+
+#todo-items li input[type="checkbox"]
+  margin-right: 10px
+
+
+#todo-items li button
+  background-color: #FF0000
+  border: none
+  color: white
+  padding: 5px 10px
+  border-radius: 5px
+  cursor: pointer
+
+#select-all
+  margin-bottom: 10px
+  display: block
+
+#todo-items li:not(:last-child)
+  border-bottom: 1px solid #ccc
+  padding-bottom: 10px
+
+
+#todo-items li.task
+  display: flex
+  position: relative
+  align-items: center
+
+#todo-items li.task button.delete-button
+  background-color: #D36E70
+  border: none
+  color: white
+  padding: 5px 10px
+  border-radius: 5px
+  cursor: pointer
+  margin-left: auto
+
+#todo-items li.task:not(:last-child)
+  border-bottom: 1px solid #ccc
+  padding-bottom: 10px
