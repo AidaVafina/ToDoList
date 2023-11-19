@@ -12,5 +12,8 @@
   "dependencies": {
     "sass": "^1.69.5",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
